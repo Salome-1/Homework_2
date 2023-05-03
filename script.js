@@ -96,7 +96,7 @@ let users = [
   { username: "anna", status: true },
 ];
 
-for (let item in users) {
-  if (users[item] = "true")
-   console.log(users[item]);
+for (let item of users) {
+  if (item.status == "true")
+   console.log(item);
 }
